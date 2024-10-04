@@ -40,6 +40,37 @@
 
 <a href="https://www.google.com" target="_blank">google</a>
 
+<form action="/form-page" method="post">
+
+    <p>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name" />
+    </p>
+    <p>
+        <label for="email">Email:</label>
+        <input type="text" id="email" email="user_email"/>
+    </p>
+    <p>
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" phone="user-phone"/>
+    </p>
+    <fieldset>
+        <legend>Select Your Region of the Country</legend> 
+        <div>
+        <input type="radio" id="east" name="Region" value="east" checked />
+        <label for="region">East</label>
+        </div>
+        <div>
+        <input type="radio" id="central" name="Region" value="central" checked/>
+        <label for="region">Central</label>
+        </div>
+        
+
+    </fieldset>
+    </p>
+
+</form>
+
 
 </body>
 </html>
