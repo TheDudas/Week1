@@ -1,72 +1,84 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- website declaration of HTML Page-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page 4</title>
+    <title>Form</title>
 </head> 
+<!-- Navigation Bar to navigate each Webpage-->
+ <nav>    
+    <h2>Sign - Up</h2> <!-- links to navigate the website-->
+        <div><hr>   
+            <a href="index.html">Home</a>
+            <a href="Week1_pg2.html">Tables</a>
+            <a href="Week1_pg3.html">Photos
+            <a href="week1_pg4.html">Form</a>
+        </div>
+</nav>
+<hr></hr>
+
 <!-- Body contains all the details and main portion of the page-->
 <body>
-    Page 4
-
-
-
-<!--Table Elements-->
-<div>
-    
-</div>
-
-
-
 
     <!-- build a form here -->
      <!-- Form will collect visitor's information to gather for Email newsletter -->
 
      <!-- Checkboxes, labels, or Radio buttons-->
-<h4>Enter your Contact Information to sign up for my Newsletter.</h4>
+<h4>Enter your Contact Information to sign up for my Fake Newsletter.</h4>
 
 
-<fieldset>
-<form action="/form-page" method="post" >
+<fieldset> <!-- created fields set to accent Form entries-->
+<form id="form" action="/Form/_blank" method="post" >
 
     <p>
-        <label for="name">Name:</label>
+        <label for="name">Name:</label> <!-- get name -->
         <input type="text" id="name" name="user_name" />
     </p>
     <p>
-        <label for="email">Email:</label>
+        <label for="email">Email:</label> <!-- get email -->
         <input type="text" id="email" email="user_email"/>
     </p>
     <p>
-        <label for="phone">Phone Number:</label>
+        <label for="phone">Phone Number:</label> <!-- get phone number-->
         <input type="text" id="phone" phone="user-phone"/>
     </p>
     <fieldset>
-        <legend>Select Your Region of the Country</legend> 
-        <div>
-        <input type="radio" id="east" name="Region" value="east" checked />
-        <label for="region">East</label>
-        </div>
-        <div>
-        <input type="radio" id="central" name="Region" value="central" checked/>
-        <label for="region">Central</label>
-        </div>
-
+        <legend>Select Your Region of the Country</legend> <!-- determine where person is from-->
+            <div>
+                <input type="radio" id="east" name="Region" value="east" checked /> <!-- radio buttoms to select their area of the country-->
+                <label for="region">East</label> <!-- label radio button-->
+            </div>
+            <div>
+                <input type="radio" id="central" name="Region" value="central" checked/> <!-- radio buttoms to select their area of the country-->
+                <label for="region">Central</label> <!-- label radio button-->
+            </div>
+                <input type="radio" id="south" name="Region" value="south" checked/> <!-- radio buttoms to select their area of the country-->
+                <label for="region">South</label> <!-- label radio button-->
+            <div>
+                <input type="radio" id="west" name="Region" value="west" checked/> <!-- radio buttoms to select their area of the country-->
+                <label for="region">West</label> <!-- label radio button-->
+            </div>
     </p> 
     </fieldset>
+    <button type="submit">Submit</button> <!-- submits form-->
+
+
 </fieldset>
 </form>
+<p id="log"></p> <!--creates log for the page-->
 
-
- 
-<h2>Links</h2>
-<a href="index.html">Page 1</a>
-<a href="Week1_pg2.html">Page 2</a>
-<a href="Week1_pg3.html">Page 3</a>
-<a href="week1_pg4.html">Page 4</a>
-<a href="#top"> Go to Top</a> 
-
-<a href="https://www.google.com" target="_blank">google</a>
+<a href="#top"> Go to Top</a> <!-- Takes you to the top of the page-->
 
 </body>
-</html>
+
+
+<footer> <!-- bottom of the page Footers for consistent navigation -->
+
+    <h4>WebLinks</h4>
+    <a href="https://www.google.com" target="_blank">Google</a> <!-- Google to search-->
+    <a href="https://promineotech.com/" target="_blank">Promineotech.com</a> <!-- Promideo to work on assignments-->
+    <a href="https://developer.mozilla.org/en-US/" target="_blank">MDM Developer Resources</a>  <!-- Coding Help-->
+    <a href="https://github.com/TheDudas/Week1.git" target="_blank">John Dudas GitHub</a> <!-- My GitHub Repository-->
+</footer> <!-- end of Footer-->
+
+</html> <!-- end of HTML Page -->
